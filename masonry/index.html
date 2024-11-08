@@ -13,16 +13,18 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/"/>
+    <link rel="canonical" href="http://example.com/masonry/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
         <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:title" content="masonry">
+<meta property="og:url" content="http://example.com/masonry/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-11-08T05:05:39.000Z">
+<meta property="article:modified_time" content="2024-11-08T05:05:39.841Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
     
@@ -36,7 +38,7 @@
     
     <title>
         
-            ZuolongHe&#39;s Blog - Welcome to my blog.
+            masonry | ZuolongHe&#39;s Blog
         
     </title>
 
@@ -266,76 +268,19 @@
 <main class="page-container" id="swup">
 
     
-        
-    <style>
-        .home-banner-container {
-            background: none !important;
-        }
-        .home-article-item,
-        .sidebar-links,
-        .sidebar-content,
-        a.page-number,
-        a.extend,
-        .sidebar-links .links:hover,
-        .right-bottom-tools,
-        footer.footer {
-            background-color: var(--background-color-transparent-80) !important;
-        }
-        .right-bottom-tools:hover,
-        a.page-number:hover,
-        a.extend:hover {
-            background-color: var(--primary-color) !important;
-        }
-        .site-info,
-        .home-article-sticky-label {
-            background-color: var(--background-color-transparent-15) !important;
-        }
-        .home-article-sticky-label {
-            backdrop-filter: none !important;
-        }
-    </style>
-    <div class="home-banner-background transition-fade fixed top-0 left-0 w-screen h-screen scale-125 sm:scale-110 box-border will-change-transform bg-cover">
-        <img src="/images/wallhaven-wqery6-light.webp" alt="home-banner-background" class="w-full h-full object-cover dark:hidden">
-        <img src="/images/wallhaven-wqery6-dark.webp" alt="home-banner-background" class="w-full h-full object-cover hidden dark:block">
-    </div>
-
-
-<div class="home-banner-container flex justify-center items-center transition-fade relative">
-    
-    <div class="content mt-8 flex flex-col justify-center items-center">
-        <div class="description flex flex-col justify-center items-center w-screen font-medium text-center"
-        
-        >
-            探索未知，发现生活的美好!
-            
-            
-                <p><i id="subtitle"></i></p>
-            
-        </div>
-        
-    </div>
-    <script>
-        const scrollToMain = ()=> {
-            console.log('scroll');
-            const target = document.querySelector('.main-content-container');
-            target.scrollIntoView({ behavior: 'smooth'});
-        }
-    </script>
-</div>
-    
 
     <div class="main-content-container flex flex-col justify-between min-h-dvh">
 
 
         <div class="main-content-header">
             <header class="navbar-container px-6 md:px-12">
-    <div class="navbar-content transition-navbar has-home-banner">
+    <div class="navbar-content transition-navbar ">
         <div class="left">
             
             <a class="logo-title" href="/">
-                <h1>
+                
                 ZuolongHe&#39;s Blog
-                </h1>
+                
             </a>
         </div>
 
@@ -349,7 +294,7 @@
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class="active"
+                                <a class=""
                                    href="/"
                                         >
                                     <i class="fa-regular fa-house fa-fw"></i>
@@ -417,7 +362,7 @@
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class=""
+                                <a class="active"
                                    href="/masonry/"
                                         >
                                     <i class="fa-solid fa-image fa-fw"></i>
@@ -490,7 +435,7 @@
 
                     <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
                         
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
                            href="/"
                         >
                             <span>
@@ -570,7 +515,7 @@
 
                     <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
                         
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
                            href="/masonry/"
                         >
                             <span>
@@ -590,7 +535,7 @@
 
                     <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
                         
-                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
                              navbar-data-toggle="submenu-About"
                         >
                             <span>
@@ -655,173 +600,99 @@
         <div class="main-content-body">
 
             
-                <div class="home-sidebar-container">
-    <div class="sticky-container sticky">
-        
-        
-            
-            <div class="sidebar-content" >
-                <div class="avatar flex justify-center">
-    <img src="/images/redefine-avatar.svg">
-</div>
-                <div class="author flex flex-col justify-center my-2.5 mx-0">
-    <div class="name">ZuolongHe</div>
-    
-        <div class="label">Lv1</div>
-    
-</div>
-                <div class="statistics flex justify-around my-2.5">
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
-        <div class="label text-third-text-color text-sm">Tags</div>
-    </a>
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
-        <div class="label text-third-text-color text-sm">Categories</div>
-    </a>
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">2</div>
-        <div class="label text-third-text-color text-sm">Posts</div>
-    </a>
-</div>
-            </div>
-        
-
-    </div>
-</div>
-
-            
 
             <div class="main-content">
 
                 
-                    <div class="home-content-container">
-    <ul class="home-article-list">
+                    <div class="page-template-container">
+    
+    
+    
         
-            <li class="home-article-item">
 
-                
-
-                
-
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
-                    <h3 class="home-article-title">
-                        <a href="/2024/11/08/new-note/">
-                            新日志
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            博客的应用我要进行测试
-
+<h1 class="page-title-header">masonry</h1>
   
-    
-      信息
-
-    
-    
-      换行测试换行测试换行测试
-
-    
-  
-
-  
-    
-      提示
-
-    
-    
-      换行测试换行测试换行测试
-
-    
-  
-
-  
-    
-      自定义标题
-
-    
-    
-      换行测试换行测试换行测试
-
-    
-  
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Fri Nov 08 2024 14:04:16 GMT+0800">
-                
-                    2024-11-08
-                
-            </span>
-        </span>
-        
-        
-    </div>
-
-    <a href="/2024/11/08/new-note/">Read more<span class="seo-reader-text">新日志</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
-                    <h3 class="home-article-title">
-                        <a href="/2024/11/06/hello-world/">
-                            Hello World
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            Welcome to Hexo ! This is your very first post. Check documentation  for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting  or you can ask me on GitHub ...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Wed Nov 06 2024 13:37:22 GMT+0800">
-                
-                    2024-11-06
-                
-            </span>
-        </span>
-        
-        
-    </div>
-
-    <a href="/2024/11/06/hello-world/">Read more<span class="seo-reader-text">Hello World</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-    </ul>
-
-    <div class="home-paginator px-7 py-5">
-        <div class="paginator">
-    <span class="page-number current">1</span>
-</div>
-
+<div class="loading-placeholder">
+    <div class="flex-grid generic-card">
+        <div class="card loading"></div>
+        <div class="card loading"></div>
+        <div class="card loading"></div>
     </div>
 </div>
 
-                    <div class="comment-container pjax"></div>
+<div id="masonry-container">
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://images7.alphacoders.com/465/465331.jpg" alt="雪景">
+            <div class="image-title">雪景</div>
+            <div class="image-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="https://picsum.photos/id/12/2500/1800" alt="Lorem ipsum">
+            <div class="image-title">Lorem ipsum</div>
+            <div class="image-description">Lorem ipsum dolor sit amet</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="/image/001.jpg" alt="a">
+            <div class="image-title">a</div>
+            <div class="image-description">Lorem ipsum dolor sit amet</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="/image/002.jpg" alt="s">
+            <div class="image-title">s</div>
+            <div class="image-description">Lorem ipsum dolor sit amet</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="/image/003.jpg" alt="d">
+            <div class="image-title">d</div>
+            <div class="image-description">Lorem ipsum dolor sit amet</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="/image/004.jpg" alt="f">
+            <div class="image-title">f</div>
+            <div class="image-description">Lorem ipsum dolor sit amet</div>
+        </div>
+      </div>
+    
+      <div class="masonry-item">
+        <div class="image-container">
+            <img src="/image/005.jpg" alt="g">
+            <div class="image-title">g</div>
+            <div class="image-description">Lorem ipsum dolor sit amet</div>
+        </div>
+      </div>
+    
+</div>
+
+
+    
+    <div class="page-template-content markdown-body">
+        
+            
+        
+    </div>
+    <div class="page-template-comments">
+        
+    </div>
+</div>
+
+
                 
 
             </div>
@@ -988,7 +859,6 @@
         containers: ["#swup"],
     });
 </script>
-
 
 
 
