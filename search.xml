@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>My-New-Post</title>
+    <url>/2024/11/08/My-New-Post/</url>
+    <content><![CDATA[<p>11112123</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>art-test</title>
     <url>/2024/11/09/art-test/</url>
     <content><![CDATA[<p>我是测试11</p>
@@ -35,18 +47,6 @@
         <category>随笔</category>
         <category>起始</category>
         <category>你好世界</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My-New-Post</title>
-    <url>/2024/11/08/My-New-Post/</url>
-    <content><![CDATA[<p>11112123</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
       </categories>
       <tags>
         <tag>随笔</tag>
